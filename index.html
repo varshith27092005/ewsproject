@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering Workshop Experiments</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-image: url("https://wallpapercave.com/wp/wp2951423.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.ews{
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  padding: 10px 0;
+
+}
+
+/* Animation */
+.ews {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 400ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+      .developers
+      {
+        /* margin-right: 1000px; */
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      li{
+        padding: 10px;
+      }
+      header,
+      footer {
+        text-align: center;
+        /* background: rgba(0 0, 0, 0.6); */
+        color: #fff;
+        /* padding: 10px 0; */
+      }
+
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      ul,
+      ol {
+        margin: 10px 0 20px 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+      }
+
+      a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fadeIn {
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      /* Additional CSS styles for main page images */
+      .experiment-image {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto; /* Adjust margin as needed */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effecre\t */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="ews">Engineering Workshop</h1>
+      
+    </header>
+    <main>
+      
+      <section>
+        <h2><a href="welding.html">Welding</a></h2>
+        <!-- Add image for Welding -->
+        <img class="experiment-image" src="https://th.bing.com/th/id/OIP.Y2-7QnfdEuzYVcHmoBuBsgHaFp?w=228&h=180&c=7&r=0&o=5&pid=1.7" alt="Welding" />
+      </section>
+      <section>
+        <h2><a href="carpentry.html">Carpentry</a></h2>
+        <!-- Add image for Carpentry -->
+        <img class="experiment-image" src="https://th.bing.com/th/id/OIP.TyQg83ojv9LdP-TDVz-QSQAAAA?w=293&h=180&c=7&r=0&o=5&pid=1.7" alt="Carpentry" />
+      </section>
+      <section>
+        <h2><a href="fitting.html">Fitting</a></h2>
+        <!-- Add image for Fitting -->
+        <img class="experiment-image" src="https://www.diydoctor.org.uk/images/using-a-hand-file.jpg" alt="Fitting" />
+      </section>
+      <section>
+        <h2><a href="tinsmithy.html">Tinsmithy</a></h2>
+        <!-- Add image for Tinsmithy -->
+        <img class="experiment-image" src="https://i.ytimg.com/vi/k8py1e8unpg/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgUChJMA8=&rs=AOn4CLAjK28eusNkNwrKrtLdqvCVXU95ww"  alt="Tinsmithy" />
+      </section>
+      <section>
+        <h2><a href="housewiring.html">House Wiring</a></h2>
+        <!-- Add image for House Wiring -->
+        <img
+          class="experiment-image"
+          src="https://th.bing.com/th/id/OIP.sa-W8K3_t3PMua4kZQtctAAAAA?rs=1&pid=ImgDetMain"
+          alt="House Wiring"
+        />
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Engineering Workshop</p>
+      <div class="developers">
+        <h2 style="color: white;">Developed By:</h2>
+        <ul>
+        <li type="none">M.varshith-23241A66G8</li>
+        <li type="none">Md.avez-23241A66G7</li>
+        <li type="none">Md.asvan-23241A66G6</li>
+        
+        </ul>
+       </div>
+    </footer>
+  </body>
+</html>
